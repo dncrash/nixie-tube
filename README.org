@@ -1,0 +1,10 @@
+#+TITLE: Nixie Clock personal changelog and README
+
+* Install guide
+1. Import [[file:VFDTube.zip][VFDTube.zip]] in ArduinoIDE Library
+2. Upload [[file:VFDTube2/examples/SimpleClock/SimpleClock.ino][SimpleClock.ino]] to Arduino
+
+* Changes from original repo:
+** Added correct [[file:docs/VFD_Tube_Module_IV-22_Application_Guide_v1.0.0_EN.pdf][english PDF]] to documentation
+** Added [[file:VFDTube2/platformio.ini][platformio.ini]] file in a failed attempt to upload code from Linux using platformio
+** Changed bg color to White in [[file:VFDTube2/examples/SimpleClock/SimpleClock.ino][SimpleClock.ino]]
